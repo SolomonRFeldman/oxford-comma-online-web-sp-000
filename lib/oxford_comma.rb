@@ -3,4 +3,5 @@ def oxford_comma(series)
     series
   elsif series.size == 2
     series.join(" and ")
+  end
 end
